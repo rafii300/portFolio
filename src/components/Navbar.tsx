@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
+import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,9 +34,9 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4 md:py-6">
           <div className="flex items-center">
-            <a href="#" className="text-xl font-display font-bold tracking-tight">
-              <span className="text-gradient">Portfolio</span>
-            </a>
+            <Link to="/" className="text-xl font-display font-bold tracking-tight">
+              <span className="text-gradient">Tahomid</span>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -43,6 +44,7 @@ const Navbar: React.FC = () => {
             <a href="#about" className="text-sm font-medium text-gray-700 hover:text-primary link-underline">About</a>
             <a href="#skills" className="text-sm font-medium text-gray-700 hover:text-primary link-underline">Skills</a>
             <a href="#projects" className="text-sm font-medium text-gray-700 hover:text-primary link-underline">Projects</a>
+            <Link to="/certificates" className="text-sm font-medium text-gray-700 hover:text-primary link-underline">Certificates</Link>
             <a href="#contact" className="text-sm font-medium text-white bg-primary px-4 py-2 rounded-md hover:bg-primary/90 transition-colors">Contact</a>
           </nav>
 
@@ -102,6 +104,13 @@ const Navbar: React.FC = () => {
           >
             Projects
           </a>
+          <Link 
+            to="/certificates" 
+            className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Certificates
+          </Link>
           <a 
             href="#contact" 
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50"

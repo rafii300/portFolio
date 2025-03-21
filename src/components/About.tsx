@@ -21,8 +21,8 @@ const About: React.FC = () => {
               <div className="absolute -inset-4 rounded-xl bg-gradient-to-r from-blue-500/20 to-indigo-500/20 blur-xl"></div>
               <div className="relative aspect-square rounded-xl overflow-hidden border border-slate-200/50 shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475"
-                  alt="Profile" 
+                  src="/lovable-uploads/e8c86790-a1ce-46e0-bc7b-f50ac20cfdf6.png"
+                  alt="K.M. Tahomid Ahasan" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -31,10 +31,10 @@ const About: React.FC = () => {
 
           <div className="animate-on-scroll delay-100">
             <p className="text-lg text-gray-600 mb-6">
-              I'm a Computer Science Engineering student passionate about creating elegant, efficient solutions to complex problems. My journey in technology is driven by curiosity and a desire to make a meaningful impact through innovation.
+              I'm K.M. Tahomid Ahasan, a Computer Science Engineering student at Rajshahi University of Engineering and Technology (RUET) passionate about creating elegant, efficient solutions to complex problems.
             </p>
             <p className="text-lg text-gray-600 mb-8">
-              Whether it's developing applications, designing algorithms, or exploring new technologies, I approach each challenge with enthusiasm and a commitment to excellence.
+              My interests span across programming, cybersecurity, and software development. I'm constantly learning and pushing myself to grow in these areas.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -44,7 +44,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Education</h3>
-                  <p className="text-sm text-gray-600">Computer Science Engineering</p>
+                  <p className="text-sm text-gray-600">CSE Student at RUET</p>
                 </div>
               </div>
 
@@ -64,7 +64,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Experience</h3>
-                  <p className="text-sm text-gray-600">2+ Years Coding</p>
+                  <p className="text-sm text-gray-600">Programming & Cybersecurity</p>
                 </div>
               </div>
 
@@ -74,7 +74,7 @@ const About: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Interests</h3>
-                  <p className="text-sm text-gray-600">AI, Web Dev, Cloud</p>
+                  <p className="text-sm text-gray-600">Security, Web Dev, AI</p>
                 </div>
               </div>
             </div>

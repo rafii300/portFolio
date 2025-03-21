@@ -12,27 +12,33 @@ const skills: Skill[] = [
   // Programming Languages
   { name: 'Python', level: 90, category: 'Languages', icon: '🐍' },
   { name: 'Java', level: 85, category: 'Languages', icon: '☕' },
-  { name: 'JavaScript', level: 90, category: 'Languages', icon: '🟨' },
-  { name: 'C++', level: 80, category: 'Languages', icon: '⚙️' },
-  { name: 'TypeScript', level: 85, category: 'Languages', icon: '🔷' },
+  { name: 'JavaScript', level: 80, category: 'Languages', icon: '🟨' },
+  { name: 'C++', level: 90, category: 'Languages', icon: '⚙️' },
+  { name: 'C', level: 85, category: 'Languages', icon: '🔧' },
   
   // Frontend
-  { name: 'React', level: 90, category: 'Frontend', icon: '⚛️' },
-  { name: 'HTML/CSS', level: 95, category: 'Frontend', icon: '🎨' },
-  { name: 'Tailwind CSS', level: 90, category: 'Frontend', icon: '💨' },
-  { name: 'Redux', level: 80, category: 'Frontend', icon: '🔄' },
+  { name: 'HTML/CSS', level: 85, category: 'Frontend', icon: '🎨' },
+  { name: 'React', level: 75, category: 'Frontend', icon: '⚛️' },
+  { name: 'Bootstrap', level: 80, category: 'Frontend', icon: '🅱️' },
+  { name: 'Tailwind CSS', level: 70, category: 'Frontend', icon: '💨' },
   
-  // Backend
-  { name: 'Node.js', level: 85, category: 'Backend', icon: '🟢' },
-  { name: 'Express', level: 80, category: 'Backend', icon: '🚂' },
-  { name: 'Django', level: 75, category: 'Backend', icon: '🎸' },
-  { name: 'SQL', level: 85, category: 'Backend', icon: '🗃️' },
+  // Backend & Databases
+  { name: 'Node.js', level: 75, category: 'Backend', icon: '🟢' },
+  { name: 'Express', level: 70, category: 'Backend', icon: '🚂' },
+  { name: 'MySQL', level: 85, category: 'Backend', icon: '🗃️' },
+  { name: 'MongoDB', level: 75, category: 'Backend', icon: '🍃' },
+  
+  // Cybersecurity
+  { name: 'Network Security', level: 85, category: 'Cybersecurity', icon: '🔒' },
+  { name: 'Ethical Hacking', level: 80, category: 'Cybersecurity', icon: '🛡️' },
+  { name: 'Security Analysis', level: 75, category: 'Cybersecurity', icon: '🔍' },
+  { name: 'Penetration Testing', level: 70, category: 'Cybersecurity', icon: '🔨' },
   
   // Others
-  { name: 'Git', level: 90, category: 'Others', icon: '🔀' },
-  { name: 'AWS', level: 70, category: 'Others', icon: '☁️' },
-  { name: 'Docker', level: 75, category: 'Others', icon: '🐳' },
-  { name: 'Machine Learning', level: 80, category: 'Others', icon: '🤖' },
+  { name: 'Git', level: 85, category: 'Others', icon: '🔀' },
+  { name: 'Linux', level: 80, category: 'Others', icon: '🐧' },
+  { name: 'Docker', level: 70, category: 'Others', icon: '🐳' },
+  { name: 'Problem Solving', level: 90, category: 'Others', icon: '🧩' },
 ];
 
 const categories = [...new Set(skills.map(skill => skill.category))];
@@ -75,7 +81,7 @@ const Skills: React.FC = () => {
             Technical <span className="text-gradient">Skills</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            I've developed a diverse set of skills across the software development spectrum, with a focus on building end-to-end solutions.
+            I've developed a diverse set of skills across programming and cybersecurity, with a focus on building secure and efficient solutions.
           </p>
         </div>
 

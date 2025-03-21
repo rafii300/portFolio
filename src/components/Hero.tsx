@@ -28,14 +28,14 @@ const Hero: React.FC = () => {
       
       <div className="relative z-10 max-w-4xl mx-auto text-center px-4 animate-scale-in">
         <div className="inline-block mb-4 px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold tracking-wide">
-          Computer Science Engineering Student
+          CSE Student at RUET
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold tracking-tight mb-6">
-          <span className="block">Turning Ideas into</span>
-          <span className="text-gradient">Digital Reality</span>
+          <span className="block">Hi, I'm</span>
+          <span className="text-gradient">K.M. Tahomid Ahasan</span>
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-          A passionate CSE student focused on building innovative solutions that make a difference in the world.
+          A passionate Computer Science Engineering student at Rajshahi University of Engineering and Technology with interests in programming and cybersecurity.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
