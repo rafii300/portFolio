@@ -17,44 +17,13 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: 'E-Learning Platform',
-    description: 'A comprehensive e-learning platform with course management, video lectures, and progress tracking.',
+    title: 'FindYourHome',
+    description: 'A real estate platform that helps users find their perfect home with advanced search filters and property listings.',
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80',
     category: 'Web App',
-    demoLink: '#',
-    githubLink: '#',
-  },
-  {
-    id: 2,
-    title: 'AI Image Generator',
-    description: 'An application that generates realistic images using machine learning and AI algorithms.',
-    tags: ['Python', 'TensorFlow', 'React', 'Flask'],
-    image: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1',
-    category: 'AI',
-    demoLink: '#',
-    githubLink: '#',
-  },
-  {
-    id: 3,
-    title: 'Inventory Management System',
-    description: 'A system for tracking inventory, managing orders, and generating reports.',
-    tags: ['React', 'Redux', 'Node.js', 'MySQL'],
-    image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-    category: 'Web App',
-    demoLink: '#',
-    githubLink: '#',
-  },
-  {
-    id: 4,
-    title: 'Weather Forecast App',
-    description: 'A mobile-first application for real-time weather forecasting with location tracking.',
-    tags: ['React Native', 'API Integration', 'Geolocation'],
-    image: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7',
-    category: 'Mobile App',
-    demoLink: '#',
-    githubLink: '#',
-  },
+    githubLink: 'https://github.com/rafii300/findYourHome.git',
+  }
 ];
 
 const categories = [...new Set(projects.map(project => project.category))];
@@ -178,8 +147,10 @@ const Projects: React.FC = () => {
         
         <div className="text-center mt-12 animate-on-scroll">
           <a 
-            href="#" 
+            href="https://github.com/rafii300" 
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-gray-100 text-gray-900 hover:bg-gray-200 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <span>View All Projects</span>
             <ExternalLink size={16} />

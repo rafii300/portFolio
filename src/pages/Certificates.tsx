@@ -15,6 +15,14 @@ type Certificate = {
 const certificates: Certificate[] = [
   {
     id: 1,
+    title: "Google Cybersecurity Professional Certificate",
+    issuer: "Google / Coursera",
+    date: "2023",
+    credential: "E6D7Q79L69KJ",
+    link: "https://www.coursera.org/account/accomplishments/specialization/E6D7Q79L69KJ",
+  },
+  {
+    id: 2,
     title: "Network Security Fundamentals",
     issuer: "Cisco Networking Academy",
     date: "March 2023",
@@ -22,19 +30,11 @@ const certificates: Certificate[] = [
     link: "#",
   },
   {
-    id: 2,
+    id: 3,
     title: "Ethical Hacking Essentials",
     issuer: "EC-Council",
     date: "June 2023",
     credential: "EHE78901",
-    link: "#",
-  },
-  {
-    id: 3,
-    title: "Cybersecurity Analyst Professional",
-    issuer: "IBM",
-    date: "September 2023",
-    credential: "IBM45678",
     link: "#",
   },
   {
