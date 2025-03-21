@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
           <span className="text-gradient">K.M. Tahomid Ahasan</span>
         </h1>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-          A passionate Computer Science Engineering student at Rajshahi University of Engineering and Technology with interests in programming and cybersecurity.
+          A passionate Computer Science & Engineering student at Rajshahi University of Engineering and Technology with interests in programming and cybersecurity.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
